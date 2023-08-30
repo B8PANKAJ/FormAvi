@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:wght@500&family=Nunito:ital,wght@0,200;0,400;0,500;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.details {
+  width: 85%;
+  margin-left: 30px;
+  margin-top: 24px;
+}
+.details h1 {
+  font-size: 44px;
+  font-weight: bold;
+}
+.details p {
+  font-size: 16px;
+  color: gray;
+  font-weight: bold;
+}
+.boom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+  width: 45%;
+}
+.img img {
+  height: 424px;
+  width: 633px;
+}
+.submit {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+form input {
+  height: 40px;
+  padding: 6px 8px;
+}
+form label {
+  background-color: white;
+  font-weight: bold;
+  margin-left: 18px;
+  position: relative;
+  top: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+}
+#one {
+  width: 5vw;
+}
+#two {
+  width: 5vw;
+}
+#three {
+  width: 6vw;
+}
+#four {
+  width: 7vw;
+}
+#five {
+  width: 6vw;
+}
+#six {
+  width: 17vw;
+}
+#sev {
+  width: 8vw;
+}
+form select {
+  height: 40px;
+  padding: 4px 2px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
